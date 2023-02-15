@@ -1413,24 +1413,24 @@ body.is-preload #bg:before {
 }
 
 #header .content .inner {
-  transition: max-height 0.25s ease, padding 0.75s ease,
+  transition: max-height 0.25s ease, margin 0.75s ease,
     opacity 0.2s ease-in-out;
   transition-delay: 0.4s;
-  padding: 3rem 2rem;
+  margin: 0rem 2rem;
   max-height: 40rem;
   overflow: hidden;
 }
 #header .content .doner {
-  transition: max-height 0.1s ease, padding 0.2s ease, opacity 0.2s ease-in-out;
+  transition: max-height 0.1s ease, margin 0.2s ease, opacity 0.2s ease-in-out;
   transition-delay: 0s;
-  padding: 3rem 2rem;
+  margin: 0rem 2rem;
   max-height: 40rem;
   overflow: hidden;
 }
 #header .content .rapet {
-  padding: 0rem 0rem;
+  margin: 0rem 0rem;
   max-height: 0rem;
-  transition: max-height 0.1s ease, padding 0.1s ease, opacity 0.2 ease-in-out;
+  transition: max-height 0.1s ease, margin 0.1s ease, opacity 0.2 ease-in-out;
   /*		-moz-transition-delay: 0.1s;
 				-webkit-transition-delay: 0.1s;
 				-ms-transition-delay: 0.1s;*/
@@ -1528,8 +1528,8 @@ body.is-preload #header > * {
 
 body.is-preload #header .content .inner {
   max-height: 0;
-  padding-top: 0;
-  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   opacity: 0;
 }
 
@@ -1560,7 +1560,7 @@ body.is-preload #header .content .inner {
   }
 
   #header .content .inner {
-    padding: 2.5rem 1rem;
+    margin: 2.5rem 1rem;
   }
 
   #header .content p {

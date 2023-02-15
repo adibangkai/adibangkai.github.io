@@ -102,6 +102,12 @@ body.is-preload #bg:before {
 #works {
   overflow: scroll;
   max-height: 400px;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+#about {
+  padding: 3rem 2rem;
 }
 .porto {
   display: grid;
